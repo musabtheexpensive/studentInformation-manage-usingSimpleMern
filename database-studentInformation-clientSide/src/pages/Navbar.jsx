@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar ">
-      <div className="navbar-center   lg:flex">
+      <div className="navbar-start   lg:flex">
         <ul className="menu menu-horizontal gap-6 px-1">
           <li>
             <Link
