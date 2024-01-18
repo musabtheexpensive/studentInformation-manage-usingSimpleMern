@@ -84,4 +84,5 @@ const AllStudent = () => {
   );
 };
 
+
 export default AllStudent;
