@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
       {
         path: "/allStudent",
         element: <AllStudent></AllStudent>,
-        loader: () => fetch("http://localhost:5000/students"),
+        loader: () => fetch("http://localhost:5001/students"),
       },
     ],
   },
